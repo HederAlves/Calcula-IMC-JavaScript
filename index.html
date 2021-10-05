@@ -10,17 +10,61 @@
     <link rel="stylesheet" href="flexbox.css">
 </head>
 <body>
-    <header>
-        <h1></h1>
-        <p></p>
-        <a href=""></a>
+    <header class="containerCabecalho">
+        <h1>Calcula IMC</h1>
+        <div class="blocoCabecalho">
+            <p class="paragrafoCabecalho">IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
+
+            <p class="paragrafoCabecalho">O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.</p>
+
+            <p class="paragrafoCabecalho"> Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela. Importante: siga os exemplos e use pontos como separadores.</p>
+        </div>
+        <div class="blocoTabela">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Imc</th>
+                        <th>Classificação</th>
+                        <th>Obesidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Menor que 18,5</td>
+                        <td>Magreza</td>
+                        <td>0</td>
+                    </tr>               
+                    <tr>
+                        <td>Entre 18,5 e 24,9</td>
+                        <td>normal</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Entre 25,0 e 29,9</td>
+                        <td>Sobrepeso</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Entre 30,0 e 39,9</td>
+                        <td>Obesidade</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Maior que 40,0</td>
+                        <td>Obesidade Grave</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
     </header>
     <section class="containerPrincipal">
           <div class="blocoPrincipal">
             <div class="blocoInput">
-                <h2>Informe seu Peso</h2>
+                <h2><span>Peso</span> (ex.:69,20)</h2>
                 <input class="peso" type="number">
-                <h2>Informe sua Altura</h2>
+                <h2><span>Altura</span> (ex.:1,70)</h2>
                 <input class="altura" type="number">
                 <button class="botaoResultado" onclick="clicar()">Resultado</button>
                 <p class="resultadoImc"></p>
