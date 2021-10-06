@@ -1,7 +1,7 @@
-function clicar() {
-    var num1 = document.querySelector(".altura").value;
-    var num2 = document.querySelector(".peso").value;
+function calculaImc() {
+    var altura = document.querySelector(".altura").value;
+    var peso = document.querySelector(".peso").value;
    
-    var resultado = ((parseInt(num1) * parseInt(num1)) / parseInt(num2));
-    document.querySelector(".resultadoImc").innerHTML = resultado;
+    var resultadoImc = parseFloat(peso) / (parseFloat(altura) * parseFloat(altura));
+    document.querySelector(".resultadoImc").innerHTML = resultadoImc.toFixed(2);
 }
