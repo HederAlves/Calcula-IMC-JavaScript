@@ -1,6 +1,6 @@
 body {
     background: hsl(255,60%,60%);
-    padding: 150px 0px 0px 150px;
+    padding: 150px 0px 0px 250px;
     margin: 0 auto;
     width: 1440px;
 }
@@ -39,14 +39,14 @@ h1 {
     font-style: italic;
     box-sizing: border-box;
     width: 60%;
-    padding: 25px;
+    padding: 20px;
     line-height: 1.5;
     background: hsl(255,60%,60%);
     margin-top: 90px;
 }
 
 .paragrafoCabecalho {
-    margin-top: 15px;
+    margin: 0px 25px 0px 0px;
 }
 
 table {
@@ -142,7 +142,6 @@ h2 {
     border-radius: 10px;
 }
 
-
 .resultadoImc {
     align-items: center;
     color: hsl(255,60%,60%);
@@ -154,4 +153,64 @@ h2 {
     border-radius: 15px;
     margin: 15px;
 
+}
+
+        /*MOBILE*/
+@media(max-width: 780px) {
+
+    body {
+        padding: 0;
+        width: 340px;
+    }
+
+    header {
+        width: initial;
+        height: initial;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    h1 {
+        position: initial;
+        margin: initial;
+        width: initial;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .blocoCabecalho {
+        width: initial;
+        flex-direction: column;
+        margin: initial;
+    }    
+
+    .paragrafoCabecalho {
+         margin: 15px 0px 0px 0px;
+    }
+
+    .tabela {
+
+        vertical-align: middle;
+        font-size: 11.5px;
+        line-height: 1.5;
+        width: 100%;
+    }
+
+    td {
+        vertical-align: middle;
+    }
+
+    .blocoPrincipal {
+        position: initial;
+        margin: initial;
+        width: initial;
+        padding: initial;
+        border-radius: initial;
+    }
+
+    .blocoInput {
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    .botaoResultado {
+        width: initial;
+    }
 }
