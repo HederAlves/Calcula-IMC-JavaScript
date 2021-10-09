@@ -9,27 +9,27 @@ function calculaImc() {
 
     if (resultadoImc < 18.5) {
 
-        document.querySelector('[data-resultado-filtro]').innerHTML = console.log("Magreza");
+      alert("Cuidado!! você está abaixo do recomendado");
     }
 
-    if (resultadoImc >= 18.5 || resultadoImc <= 24.9) {
+    if (resultadoImc >= 18.5 && resultadoImc <= 24.9) {
 
-       document.querySelector('[data-resultado-filtro]').innerHTML = console.log("Normal");
+      alert("Ótimo!! você está na média recomendada");
      }
 
-     if (resultadoImc >= 25 || resultadoImc <= 29.9) {
+     if (resultadoImc >= 25 && resultadoImc <= 29.9) {
 
-       document.querySelector('[data-resultado-filtro]').innerHTML-console.log("Sobrepeso");
+      alert("Cuidado!! você está um pouco acima do recomendado");
      }
 
-     if (resultadoImc >= 30 || resultadoImc <= 39.9) {
+     if (resultadoImc >= 30 && resultadoImc <= 39.9) {
 
-       document.querySelector('[data-resultado-filtro]').innerHTML = console.log("Obesidade");
+       alert("Perigo!! você está acima do recomendado");
      }
 
      if (resultadoImc > 40) {
 
-       document.querySelector('[data-resultado-filtro]').innerHTML = console.log("Obesidadegrave");
+      alert("Perigo extremo!! você está muito acima do recomendado")
      }
 
 
