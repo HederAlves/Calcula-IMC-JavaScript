@@ -9,30 +9,68 @@ function calculaImc() {
 
     if (resultadoImc < 18.5) {
 
-      alert("Cuidado!! você está abaixo do recomendado");
+      var resultadoNormal = document.querySelector('[data-resultado-normal]').style;
+      resultadoNormal.display = 'none';
+      var resultadoSobrepeso = document.querySelector('[data-resultado-sobrepeso]').style;
+      resultadoSobrepeso.display = 'none';
+      var resultadoObsidade = document.querySelector('[data-resultado-obesidade]').style;
+      resultadoObsidade.display = 'none';
+      var resultadoObsidadeGrave = document.querySelector('[data-resultado-obesidadegrave]').style;
+      resultadoObsidadeGrave.display = 'none';
+
     }
 
     if (resultadoImc >= 18.5 && resultadoImc <= 24.9) {
+      
 
-      alert("Ótimo!! você está na média recomendada");
+      var resultadoMagreza = document.querySelector('[data-resultado-magreza]').style;
+      resultadoMagreza.display = 'none';
+      var resultadoSobrepeso = document.querySelector('[data-resultado-sobrepeso]').style;
+      resultadoSobrepeso.display = 'none';
+      var resultadoObsidade = document.querySelector('[data-resultado-obesidade]').style;
+      resultadoObsidade.display = 'none';
+      var resultadoObsidadeGrave = document.querySelector('[data-resultado-obesidadegrave]').style;
+      resultadoObsidadeGrave.display = 'none';
+
      }
 
      if (resultadoImc >= 25 && resultadoImc <= 29.9) {
 
-      alert("Cuidado!! você está um pouco acima do recomendado");
+      var resultadoMagreza = document.querySelector('[data-resultado-magreza]').style;
+      resultadoMagreza.display = 'none';
+      var resultadoNormal = document.querySelector('[data-resultado-normal]').style;
+      resultadoNormal.display = 'none';
+      var resultadoObsidade = document.querySelector('[data-resultado-obesidade]').style;
+      resultadoObsidade.display = 'none';
+      var resultadoObsidadeGrave = document.querySelector('[data-resultado-obesidadegrave]').style;
+      resultadoObsidadeGrave.display = 'none';
+      
      }
 
      if (resultadoImc >= 30 && resultadoImc <= 39.9) {
 
-       alert("Perigo!! você está acima do recomendado");
+      var resultadoMagreza = document.querySelector('[data-resultado-magreza]').style;
+      resultadoMagreza.display = 'none';
+      var resultadoNormal = document.querySelector('[data-resultado-normal]').style;
+      resultadoNormal.display = 'none';
+      var resultadoSobrepeso = document.querySelector('[data-resultado-sobrepeso]').style;
+      resultadoSobrepeso.display = 'none';
+      var resultadoObsidadeGrave = document.querySelector('[data-resultado-obesidadegrave]').style;
+      resultadoObsidadeGrave.display = 'none';
+
      }
 
      if (resultadoImc > 40) {
 
-      alert("Perigo extremo!! você está muito acima do recomendado")
-     }
+      var resultadoMagreza = document.querySelector('[data-resultado-magreza]').style;
+      resultadoMagreza.display = 'none';
+      var resultadoNormal = document.querySelector('[data-resultado-normal]').style;
+      resultadoNormal.display = 'none';
+      var resultadoSobrepeso = document.querySelector('[data-resultado-sobrepeso]').style;
+      resultadoSobrepeso.display = 'none';
+      var resultadoObsidade = document.querySelector('[data-resultado-obesidade]').style;
+      resultadoObsidade.display = 'none';
 
-
-
+    }
 }
   
