@@ -101,16 +101,24 @@ th {
     background: black;
 }
 
-.peso {
+.novoTeste {
+    margin: 0px 17px;
     text-align: center;
-    color: hsl(255,60%,60%);
-    font-size: 45px;
-    width: 100px;
+    background: hsl(255,60%,60%);
+    color:hsl(255,95%,95%);
+    font-size: 25px;
+    width: 150px;
     height: 50px;
-    background: hsl(255,95%,95%);
-    border-radius: 5px;
+    border-radius: 10px;
+    text-align: center;
 }
 
+.novoTeste:hover {
+    background: hsl(255,95%,95%);
+    color:hsl(255,60%,60%);
+}
+
+.peso,
 .altura {
     text-align: center;
     color: hsl(255,60%,60%);
@@ -132,14 +140,19 @@ h2 {
 }
 
 .botaoResultado {
-    margin: 0px 25px;
+    margin: 0px 19px;
     text-align: center;
     background: hsl(255,60%,60%);
     color:hsl(255,95%,95%);
     font-size: 25px;
-    width: 140px;
+    width: 150px;
     height: 50px;
     border-radius: 10px;
+}
+
+.botaoResultado:hover {
+    background: hsl(255,95%,95%);
+    color:hsl(255,60%,60%);
 }
 
 .resultadoImc {
@@ -203,6 +216,10 @@ h2 {
         width: initial;
         padding: initial;
         border-radius: initial;
+    }
+
+    .novoTeste {
+        width: initial;
     }
 
     .blocoInput {
