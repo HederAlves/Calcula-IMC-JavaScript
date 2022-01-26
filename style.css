@@ -95,7 +95,7 @@ th {
 }
 
 .novoTeste {
-    margin: 15px 17px;
+    margin: 15px 0px 0px 20px;
     text-align: center;
     background: hsl(255,60%,60%);
     color:hsl(255,95%,95%);
@@ -116,10 +116,10 @@ th {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 520px;
+    height: 630px;
     border-radius: 15px;
     background: black;
-    margin-top: 0px;
+    margin-top: -110px;
 }
 
 .peso,
