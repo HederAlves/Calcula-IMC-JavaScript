@@ -175,6 +175,7 @@ h2 {
 @media(max-width: 780px) {
 
     body {
+        margin: 0px 15px;
         padding: 0;
         width: 340px;
     }
@@ -183,6 +184,7 @@ h2 {
         width: initial;
         height: initial;
         border-radius: 15px 15px 0px 0px;
+        margin: initial;
     }
 
     h1 {
@@ -200,6 +202,10 @@ h2 {
 
     .paragrafoCabecalho {
          margin: 15px 0px 0px 0px;
+    }
+
+    .blocoTabela {
+        height: 460px;
     }
 
     .tabela {
@@ -223,7 +229,7 @@ h2 {
     }
 
     .novoTeste {
-        width: initial;
+        width: 305px;
     }
 
     .blocoInput {
