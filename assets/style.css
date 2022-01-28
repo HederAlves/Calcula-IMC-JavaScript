@@ -1,0 +1,249 @@
+body {
+    margin: 0 auto;
+    background: hsl(255,60%,60%);
+    padding: 50px 0px 0px 0px;
+    height: 550px;
+}
+
+header {
+    width: 80%;
+    height: 560px;
+    background: black;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-left: 130px;
+}
+
+h1 {
+    text-align: center;
+    position: absolute;
+    margin-top: -55px;
+    font-weight: bold;
+    font-size: 35px;
+    color: hsl(255,60%,60%);
+    font-family: sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    width: 30%;
+    padding: 20px 0px 0px 0px;
+    line-height: 1.5;
+    background: hsl(255,95%,95%);
+    border-radius: 15px;
+    height: 90px;
+}
+
+.blocoCabecalho {
+    display: flex;
+    color: hsl(255,95%,95%);
+    font-family: sans-serif;
+    font-style: italic;
+    box-sizing: border-box;
+    width: 65%;
+    padding: 20px;
+    line-height: 1.5;
+    background: hsl(255,60%,60%);
+    margin-top: 60px;
+}
+
+.paragrafoCabecalho {
+    margin: 0px 25px 0px 0px;
+}
+
+table {
+    font-family: sans-serif;
+    text-align: center;
+    width: 65%;
+    margin: 20px 0 40px;
+}
+
+thead {
+    text-transform: uppercase;
+    background: hsl(255,95%,95%);
+    color: hsl(255,60%,60%);
+    font-weight: bold;
+}
+
+td {
+
+    text-transform: uppercase;
+    background: hsl(255,60%,60%);
+    color: hsl(255,95%,95%);
+    border: 2px solid #000000;
+    padding: 8px 15px;
+}
+
+th {
+    
+    text-transform: uppercase;
+    border: 2px solid #000000;
+    padding: 8px 15px;
+}
+
+
+
+.blocoPrincipal {
+    position: absolute;
+    margin: -500px 0px 0px 925px;
+    width: 220px;
+    height: 400px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 8px 15px;
+    align-items: right;
+    color: hsl(255,95%,95%);
+}
+
+.novoTeste {
+    margin: 15px 0px 0px 20px;
+    text-align: center;
+    background: hsl(255,60%,60%);
+    color:hsl(255,95%,95%);
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.novoTeste:hover {
+    background: hsl(255,95%,95%);
+    color:hsl(255,60%,60%);
+}
+
+.blocoInput {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 600px;
+    border-radius: 15px;
+    background: black;
+    margin-top: -95px;
+}
+
+.peso,
+.altura {
+    text-align: center;
+    color: hsl(255,60%,60%);
+    font-size: 45px;
+    width: 100px;
+    height: 50px;
+    background: hsl(255,95%,95%);
+    border-radius: 5px;
+}
+
+li {
+    padding: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: hsl(255,95%,95%);
+    font-size: 25px;
+}
+
+.botaoResultado {
+    margin: 22px;
+    text-align: center;
+    background: hsl(255,60%,60%);
+    color:hsl(255,95%,95%);
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.botaoResultado:hover {
+    background: hsl(255,95%,95%);
+    color:hsl(255,60%,60%);
+}
+
+.resultadoImc {
+    align-items: center;
+    color: hsl(255,60%,60%);
+    font-size: 45px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 50px 10px 50px 10px;
+    background: hsl(255,95%,95%);
+    border-radius: 15px;
+    margin: 20px;
+}
+
+        /*MOBILE*/
+@media(max-width: 780px) {
+
+    body {
+        margin: 0px 15px;
+        padding: 0;
+        width: 340px;
+    }
+
+    header {
+        width: initial;
+        height: initial;
+        border-radius: 15px 15px 0px 0px;
+        margin: initial;
+    }
+
+    h1 {
+        position: initial;
+        margin: initial;
+        width: initial;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .blocoCabecalho {
+        width: initial;
+        flex-direction: column;
+        margin: initial;
+    }    
+
+    .paragrafoCabecalho {
+         margin: 15px 0px 0px 0px;
+    }
+
+    .blocoTabela {
+        height: 460px;
+    }
+
+    .tabela {
+
+        vertical-align: middle;
+        font-size: 11.5px;
+        line-height: 1.5;
+        width: 100%;
+    }
+
+    td {
+        vertical-align: middle;
+    }
+
+    .blocoPrincipal {
+        position: initial;
+        margin: initial;
+        width: initial;
+        padding: initial;
+        border-radius: initial;
+    }
+
+    .novoTeste {
+        width: 305px;
+    }
+
+    .blocoInput {
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    .botaoResultado {
+        width: initial;
+    }
+
+    .resultadoFiltro {
+        position: initial;
+        margin: initial;
+        width: 340px;
+        align-items: center;
+    }
+}
