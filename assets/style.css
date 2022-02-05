@@ -65,7 +65,6 @@ thead {
 }
 
 td {
-
     text-transform: uppercase;
     background: hsl(255,60%,60%);
     color: hsl(255,95%,95%);
@@ -74,13 +73,10 @@ td {
 }
 
 th {
-    
     text-transform: uppercase;
     border: 2px solid #000000;
     padding: 8px 15px;
 }
-
-
 
 .blocoPrincipal {
     position: absolute;
@@ -177,7 +173,7 @@ h2 {
     body {
         margin: 0px 15px;
         padding: 0;
-        width: 370px;
+        width: 375px;
     }
 
     header {
