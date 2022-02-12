@@ -171,9 +171,9 @@ h2 {
 @media(max-width: 780px) {
 
     body {
-        margin: 0px 15px;
+        margin: 0;
         padding: 0;
-        width: 380px;
+        width: 370px;
     }
 
     header {
